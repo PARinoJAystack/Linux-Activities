@@ -1,0 +1,56 @@
+# Command History / Execution Record
+
+> This file is a **starting command sequence**, not proof of execution. Replace it with your actual command history before submitting the lab.
+
+## Administrative setup
+
+```bash
+sudo useradd -m -s /bin/bash -G sudo agent007
+sudo passwd agent007
+su - agent007
+```
+
+## Workspace and file operations — run as agent007
+
+```bash
+whoami
+cd /home/agent007
+mkdir -p mission/intel mission/ops/backup
+cd mission/intel
+touch targets.txt routes.txt keys.txt
+ls > listing1.txt
+ls -l > listing2.txt
+ls -la > listing3.txt
+cat listing1.txt
+cat listing2.txt
+cat listing3.txt
+cp routes.txt ../ops/backup/
+rm keys.txt
+chmod 640 targets.txt
+ls -l targets.txt
+rm ../ops/backup/routes.txt
+cp routes.txt ../ops/backup/
+ls -l /home/agent007/mission/intel/targets.txt
+```
+
+## Ownership change — root context
+
+```bash
+su -
+chown root:root /home/agent007/mission/intel/targets.txt
+su - agent007
+ls -l /home/agent007/mission/intel/targets.txt
+```
+
+## Final evidence
+
+```bash
+ls -laR /home/agent007/mission/
+history
+```
+
+## Actual execution history
+
+Paste the actual output/history from your Kali lab below this line.
+
+---

@@ -1,0 +1,37 @@
+    1  cd ~
+    2  ls
+    3  cd mission
+    4  ls
+    5  cd intel ops
+    6  cd ops
+    7  ls
+    8  rm tree_out
+    9  ls
+   10  clear
+   11  cd~
+   12  cd ~
+   13  tree ~ > tree_out
+   14  ls
+   15  tree ~
+   16  cd /home/agent007/mission/intel
+   17  ls
+   18  touch targets.txt routes.txt keys.txt
+   19  ls > listing1.txt
+   20  ls -l > listing2.txt
+   21  ls -la > listing3.txt
+   22  fins ~ -type d -name backups
+   23  find ~ -type d -name backups
+   24  cp routes.txt
+   25  cp routes.txt /home/agent007/mission/ops/backups\n
+   26  ls /home/agent007/mission/ops/backups\n
+   27  rm keys.txt 
+   28  clear
+   29  ls -l targets.txt
+   30  chmod 640 targets.txt
+   31  ls -l targets.txt
+   32  rm /home/agent007/mission/ops/backups/routes.txt
+   33  cp routes.txt /home/agent007/mission/ops/backups\n
+    1  ls -l
+    2  nano targets.txt
+    3  history
+    4  ls

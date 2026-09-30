@@ -1,0 +1,5 @@
+`chmod` changes the permissions of files and directories, controlling what the owner, group, and others can access.
+`ls -l` displays detailed information about files, including permissions, ownership, size, and timestamps.
+`useradd` creates a new Linux user account and can configure its home directory and login shell.
+In this task, these commands demonstrate user management, file permissions, and secure access control.
+Together, they help organize and manage a Linux workspace securely.

@@ -1,0 +1,12 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Do not accidentally commit private shell history
+.bash_history
+*.history
+
+# Temporary files
+*.tmp
+*.swp

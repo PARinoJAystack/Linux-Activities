@@ -1,0 +1,15 @@
+# Ownership Observation
+
+STATUS: PLACEHOLDER — NOT EXECUTED
+
+After the required root ownership change and switch back to `agent007`, run:
+
+```bash
+ls -l /home/agent007/mission/intel/targets.txt
+```
+
+Paste the actual output here:
+
+```text
+PASTE ACTUAL OUTPUT HERE
+```

@@ -1,0 +1,15 @@
+# Final Recursive Listing Evidence
+
+STATUS: PLACEHOLDER — NOT EXECUTED
+
+Run this command in the completed Kali Linux lab and replace this file with the real output:
+
+```bash
+ls -laR /home/agent007/mission/
+```
+
+Paste the complete output below:
+
+```text
+PASTE ACTUAL OUTPUT HERE
+```
